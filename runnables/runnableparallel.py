@@ -35,4 +35,8 @@ translations = RunnableParallel({
 })
 
 result = translations.invoke("Artificial intelligence is transforming industries worldwide.")
+
 print(result)
+
+
+translations.get_graph().print_ascii()
